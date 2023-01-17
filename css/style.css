@@ -15,7 +15,7 @@
 	 position: absolute;
     content: "";
     width: 60px;
-    border: 2px solid #dc3545;
+    border: 1px solid #dc3545;
     left: 50%;
     top: 50px;
     transform: translateX(-50%);
