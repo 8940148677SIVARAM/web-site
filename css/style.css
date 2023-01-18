@@ -42,11 +42,11 @@
 	  font-weight:600;
   }
   .navbar span{
-	  color:#dc3545;
+	  color:#e03a3c;
   }
   
   .collapse a:hover{
-	  color:#dc3545 !important;
+	  color:#e03a3c !important;
   }
  .top-btn .btn:hover{
 	 background-color:#000;
@@ -161,7 +161,7 @@
 	   color:grey;
    }
     .boxing-items .boxing-icons{
-		color:red;
+		color:#e03a3c;
 	   font-size:35px;
 		background-color:#fff;
 		box-shadow:0 0 15px #ccc;
@@ -186,7 +186,7 @@
 		
   }
   .system-items .nav-link:hover{
-	  color:red;
+	  color:#e03a3c;
   }
   .abt-tab .nav-item .nav-link{
 	  color:#222;
@@ -219,7 +219,7 @@
 	   font-size:42px;
    }
    .abt-tab .nav-item .nav-link:hover{
-	   color:red;
+	   color:#e03a3c;
 	   border-color:#eee;
    }
   
@@ -247,7 +247,7 @@
 	   }
 	   .none i{
 		   font-size:17px;
-		   color:red;
+		   color:#e03a3c;
 	   }
 	   .none li{
 		   font-size:16px;
