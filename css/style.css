@@ -59,7 +59,7 @@
   /*===header start===*/
   .header-sec{
 	  font-family: 'Raleway', sans-serif;
-	  padding:150px 0;
+	  padding:200px 0;
 	  background-image: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),url("../images/hero-bg.jpg");
 	  background-size:cover;
 	  background-position:center;
@@ -778,7 +778,6 @@
   .clients-1{
 	  padding:10px 10px;
   }
-  
   /*==display-sec==*/
   .abt-tab .nav-item .nav-link>i{
 	   font-size:20px;
