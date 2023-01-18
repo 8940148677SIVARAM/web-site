@@ -12,14 +12,14 @@
 		
    }
    .sec-title h1::after{
-	 position: absolute;
-    content: "";
-    width: 60px;
-    border-top: 3px solid #e03a3c;
-    left: 50%;
-    top: 50px;
-    transform: translateX(-50%);
-	margin-top:5px;
+	   position: absolute;
+	    content: "";
+	    width: 60px;
+	    border-top: 3px solid #e03a3c;
+	    left: 50%;
+	    top: 50px;
+	    transform: translateX(-50%);
+	   margin-top:5px;
   }
    .sec-title p{
 	   margin-top:35px;
