@@ -498,7 +498,7 @@
 	 position: absolute;
     content: "";
     width: 60px;
-    border: 2px solid #dc3545;
+   border-top: 2px solid #e03a3c;
     left: 50%;
     top: 80px;
     transform: translateX(-50%);
