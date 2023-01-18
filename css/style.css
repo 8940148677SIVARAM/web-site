@@ -672,7 +672,7 @@
     position: absolute;
     content: "";
     width: 30px;
-    border-top: 3px solid #e03a3c;
+    border-top: 2px solid #e03a3c;
     left: 7%;
    bottom:0;
     transform: translateX(-50%);
