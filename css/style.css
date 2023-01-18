@@ -698,9 +698,10 @@
 		position: relative;
 	}
 	.sub{
-     position: absolute;
-    top:-1px;
-	border-radius:5px;
+    position: absolute;
+    top: -1px;
+    right: -50%;
+    border-radius: 5px;
     background-color: #dc3545;
     text-align: center;
     font-size: 16px;
@@ -708,7 +709,7 @@
     height: 36px;
     border: 1px solid #dc3545;
     padding: 0px 22px;
-	}
+}
 	.form-controal1{
 		width:90%;
 		color:#999;
