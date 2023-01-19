@@ -30,7 +30,7 @@
 	position: fixed;
     width: 100%;
     background-color: #fff;
-    z-index: 1;
+    z-index: 100;
    font-family: 'Raleway', sans-serif;
   }
   .top-sec .btn:hover{
@@ -705,7 +705,6 @@
 		padding:5px 100px 4px 4px;	
        position: relative;
 	   border-radius:9px;
-	    overflow:hidden;
 	}
 	.sub{
     position: absolute;
@@ -718,7 +717,7 @@
     color: #fff;
     height: 100%;
     border: 0;
-    padding: 0px 18px;
+    padding: 0px 22px;
 	border-top-left-radius:0;
 }
 	.form-controal1{
