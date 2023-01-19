@@ -8,18 +8,18 @@
    .sec-title h1{
 	   font-size:33px;
 	   font-weight:600;
-	    position:relative;
+	   position:relative;
 		
    }
    .sec-title h1::after{
-	   position: absolute;
-	    content: "";
-	    width: 60px;
-	   border-top: 3px solid #e03a3c;
-	    left: 50%;
-	    top: 50px;
-	    transform: translateX(-50%);
-	   margin-top:5px;
+	 position: absolute;
+    content: "";
+    width: 60px;
+    border-top: 3px solid #dc3545;
+    left: 50%;
+    top: 50px;
+    transform: translateX(-50%);
+	margin-top:5px;
   }
    .sec-title p{
 	   margin-top:35px;
@@ -33,6 +33,11 @@
     z-index: 1;
    font-family: 'Raleway', sans-serif;
   }
+  .top-sec .btn:hover{
+	  background: #111111;
+  color: #fff;
+  border-color:#111111;
+  }
   .navbar-brand h1{
 	  font-size:30px;
 	  font-weight:600;
@@ -42,11 +47,11 @@
 	  font-weight:600;
   }
   .navbar span{
-	  color:#e03a3c;
+	  color:#dc3545;
   }
   
   .collapse a:hover{
-	  color:#e03a3c !important;
+	  color:#dc3545 !important;
   }
  .top-btn .btn:hover{
 	 background-color:#000;
@@ -59,7 +64,7 @@
   /*===header start===*/
   .header-sec{
 	  font-family: 'Raleway', sans-serif;
-	  padding:230px 0;
+	  padding:250px 0;
 	  background-image: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),url("../images/hero-bg.jpg");
 	  background-size:cover;
 	  background-position:center;
@@ -76,7 +81,7 @@
 	 font-size:23px;
 	 font-weight:550;
   }
-  .start-btn button:hover{
+  .start-btn a:hover{
 	  background-color:transparent;
 	  border:1px solid #fff;
   }
@@ -161,7 +166,7 @@
 	   color:grey;
    }
     .boxing-items .boxing-icons{
-		color:#e03a3c;
+		color:red;
 	   font-size:35px;
 		background-color:#fff;
 		box-shadow:0 0 15px #ccc;
@@ -186,7 +191,7 @@
 		
   }
   .system-items .nav-link:hover{
-	  color:#e03a3c;
+	  color:red;
   }
   .abt-tab .nav-item .nav-link{
 	  color:#222;
@@ -219,7 +224,7 @@
 	   font-size:42px;
    }
    .abt-tab .nav-item .nav-link:hover{
-	   color:#e03a3c;
+	   color:red;
 	   border-color:#eee;
    }
   
@@ -247,7 +252,7 @@
 	   }
 	   .none i{
 		   font-size:17px;
-		   color:#e03a3c;
+		   color:red;
 	   }
 	   .none li{
 		   font-size:16px;
@@ -306,6 +311,7 @@
 		padding:50px 0;
 		 font-family: "Open Sans", sans-serif;
   }
+  
   .nav-item-1 a{
 	  margin:20px 0;
 	  color:#000;
@@ -326,10 +332,10 @@
   .mirror{
 	position: absolute;
     opacity: 0;
-	  bottom:0px;
     padding:300px 0 50px 20px;
     transition: all 0.5s ease;
 	width:100%;
+	bottom:0px;
 }
    
     .foliobox1 h2{
@@ -401,12 +407,14 @@
 		line-height:26px;
    }
    .carousel-indicators [data-bs-target]{
-	   background-color:red;
+	   border: 1px solid red;
 	   transform:translateY(60px);
 	   width:10px;
 	   height:10px;
 	   border-radius:50%;
-	   border:none;
+   }
+   .carousel-indicators .active{
+	   background:red;
    }
    .carousel-inner {
 	   padding: 30px 10px;
@@ -496,9 +504,8 @@
 	 position: absolute;
     content: "";
     width: 60px;
-   border-top: 3px solid #e03a3c;
+    border-top: 3px solid #dc3545;
     left: 50%;
-    top: 80px;
     transform: translateX(-50%);
 	margin-top:5px;
   }
@@ -508,7 +515,9 @@
   .accordion-item p{
 	  font-size:18px;
   }
- 
+ .accordion-button{
+	 padding-left:0px;
+ }
   .accordion-button:hover{
 	  color:#dc3545;
 	  border:none;
@@ -621,9 +630,14 @@
   
   .form input{
 	  margin-bottom: 20px;
-     padding: 5px;
-	  font-size:17px;
-	  border:solid 1px gray;
+    padding: 5px;
+    font-size: 13px;
+    border: solid 1px gray;
+    border-radius: 4px;
+	padding: 12px 15px
+   }
+   .form textarea{
+	   padding: 12px 15px
    }
      .form-btn a{
 		 font-size:16px;
@@ -670,11 +684,10 @@
     position: absolute;
     content: "";
     width: 30px;
-    border-top: 2px solid #e03a3c;
-    left: 5%;
+    border-top: 2px solid #dc3545;
+    left: 0;
    bottom:0;
-    transform: translateX(-50%);
-	margin-top:5px;
+   display:block;
 	  }
 	 .base1 p{
 		 color:#777;
@@ -688,34 +701,31 @@
 	   }
 	 .out-side{
 		 border:2px solid #000;
-		 border-radius:5px;
 		background: #fff;
-		padding:1px;	
-   
-    position: absolute;
-	}
-	.subscribe{
-		position: relative;
+		padding:5px 100px 5px 5px;	
+       position: relative;
+	   overflow:hidden;
+	   border-radius:9px;
 	}
 	.sub{
     position: absolute;
-    top: -1px;
-    right: -50%;
+    top: 0px;
+    right: 0px;
     border-radius: 5px;
     background-color: #dc3545;
     text-align: center;
     font-size: 16px;
     color: #fff;
-    height: 36px;
-    border: 1px solid #dc3545;
-    padding: 0px 22px;
+    height: 100%;
+    border: 0;
+    padding: 0px 18px;
+	border-top-left-radius:0;
 }
 	.form-controal1{
 		width:100%;
 		color:#999;
 		font-size:16px;
 		padding:2px 0px;
-		margin:2px;
 		transform:translate(10px, 0px);
 	}
 	.out-side>input{
@@ -764,7 +774,7 @@
    @media (max-width:768px){
    /*== banner-sec==*/
    .header-sec{
-	   padding:200px 0;
+	   padding:250px 0;
    }
     .header-title h1{
 		font-size:25px;
@@ -776,6 +786,7 @@
   .clients-1{
 	  padding:10px 10px;
   }
+  
   /*==display-sec==*/
   .abt-tab .nav-item .nav-link>i{
 	   font-size:20px;
