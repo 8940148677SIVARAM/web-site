@@ -702,10 +702,10 @@
 	 .out-side{
 		 border:2px solid #000;
 		background: #fff;
-		padding:5px 100px 5px 5px;	
+		padding:5px 100px 4px 4px;	
        position: relative;
-	   overflow:hidden;
 	   border-radius:9px;
+	    overflow:hidden;
 	}
 	.sub{
     position: absolute;
@@ -800,6 +800,9 @@
   }
     .form textarea:focus{
 	  border:solid 1px #000;
+  }
+  .finish-1{
+	  margin-bottom:20px;
   }
 }
    
