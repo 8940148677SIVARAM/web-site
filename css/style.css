@@ -1,5 +1,5 @@
 /*===common style===*/
-  .sec-title{
+  .sec-title,.sec-title1{
 	  text-align:center;
 	  font-family: "Open Sans", sans-serif;
 	 color:#444444;
@@ -8,8 +8,29 @@
    .sec-title h1{
 	   font-size:33px;
 	   font-weight:600;
+<<<<<<< HEAD
 	   position:relative;
 		
+=======
+	   position:relative;	
+	   top:10px;
+   }
+   .sec-title1 h1{
+	  font-size:33px;
+	   font-weight:600;
+	   position:relative;
+	   top:10px;
+   }
+   .sec-title1 h1::after{
+	    position: absolute;
+    content: "";
+    width: 60px;
+    border-top: 3px solid #dc3545;
+    left: 50%;
+    top: 80px;
+    transform: translateX(-50%);
+	margin-top:5px;
+>>>>>>> 98a0235 (siva)
    }
    .sec-title h1::after{
 	 position: absolute;
@@ -17,7 +38,7 @@
     width: 60px;
     border-top: 3px solid #dc3545;
     left: 50%;
-    top: 50px;
+    top: 40px;
     transform: translateX(-50%);
 	margin-top:5px;
   }
@@ -632,12 +653,25 @@
 	  margin-bottom: 20px;
     padding: 5px;
     font-size: 13px;
+<<<<<<< HEAD
     border: solid 1px gray;
     border-radius: 4px;
 	padding: 12px 15px
    }
    .form textarea{
 	   padding: 12px 15px
+=======
+    border: solid 1px #ccc;
+    border-radius: 4px;
+	padding: 12px 15px
+   }
+   .form input:focus{
+	border-color: #dc3545;
+   }
+   .form textarea{
+	   padding: 12px 15px;
+	    border: solid 1px #ccc;
+>>>>>>> 98a0235 (siva)
    }
      .form-btn a{
 		 font-size:16px;

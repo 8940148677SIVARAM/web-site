@@ -3,15 +3,19 @@
 	<head>
 		  <meta charset="utf-8">
 		  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
 		   <meta name="google-site-verification" content="IRHVcW4pbXsj0-ZSLMCbP9rmQX5E-LnDUrMRp6DLArs" />
 		 <title> website bs </title>
+=======
+		 <title>  Presento </title>
+>>>>>>> 98a0235 (siva)
 		 <link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Courgette&family=Open+Sans:wght@500&family=Raleway:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
 		 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		  <link rel="stylesheet" href="css/font-awesome.min.css">
 		  <link rel="stylesheet" href="css/style.css">
-		  
+		  <link rel="icon" href="https://c8.alamy.com/zooms/9/67b672fb697e4af7a512ceebda7b7765/mpcntc.jpg">
 	</head>
 	<body>
 		<!---top-sec start--->
@@ -20,42 +24,50 @@
 			 <div class="container ">
 			 <a class="navbar-brand col-md-7" href="#"> <h1>Presento<span>. </span> </h1></a>
 			  <a type="button" href="#about" class="btn btn-danger top-btn order-lg-2  ms-4"> Get started </a>
+<<<<<<< HEAD
 			 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 		         <span class="navbar-toggler-icon"></span>
 		     </button>
 			<div class="collapse navbar-collapse justify-content-end col-md-2" id="navbarNav">
 			  <ul class="navbar-nav">
+=======
+			 <button class="navbar-toggler" onclick="change()" >
+		         <span class="navbar-toggler-icon"></span>
+		     </button>
+			<div class="collapse navbar-collapse justify-content-end col-md-2" id="navbarNav">
+			  <ul class="navbar-nav" id="now">
+>>>>>>> 98a0235 (siva)
 				<li class="nav-item">
-				<a class="nav-link active text-danger" href="#">Home</a>
+				<a class="nav-link active text-danger"   onclick="change()"href="#">Home</a>
 			   </li>
 			  <li class="nav-item">
-				<a class="nav-link" href="#about">About</a>
+				<a class="nav-link"  href="#about" onclick="change()">About</a>
 			  </li>
 			  <li class="nav-item">
-				<a class="nav-link" href="#services">Services</a>
+				<a class="nav-link"  href="#services" onclick="change()">service</a>
 			  </li>
 			   <li class="nav-item">
-				<a class="nav-link" href="#portfolio">Portfolio</a>
+				<a class="nav-link"  href="#portfolio" onclick="change()"> Portfolio</a>
 			  </li>
 			  <li class="nav-item">
-				<a class="nav-link" href="#team">Team</a>
+				<a class="nav-link"  href="#team" onclick="change()">Team</a>
 			  </li>
 			  <li class="nav-item">
-				<a class="nav-link" href="#">Blog</a>
+				<a class="nav-link"  href="#" onclick="change()">Blog</a>
 			  </li>
 			<li class="nav-item dropdown">
 			  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 				Dropdown 
 			  </a>
 			  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-				<li><a class="dropdown-item" href="#">Dropdown1</a></li>
-				<li><a class="dropdown-item" href="#">Dropdown2</a></li>
-				<li><a class="dropdown-item" href="#">Dropdown3</a></li>
-				<li><a class="dropdown-item" href="#">Dropdown4</a></li>
+				<li><a class="dropdown-item"  href="#" onclick="change()">Dropdown1</a></li>
+				<li><a class="dropdown-item"  href="#" onclick="change()">Dropdown2</a></li>
+				<li><a class="dropdown-item"  href="#" onclick="change()">Dropdown3</a></li>
+				<li><a class="dropdown-item"  href="#" onclick="change()">Dropdown4</a></li>
 			  </ul>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#contact">Contact</a>
+				<a class="nav-link" onclick="change()" href="#contact">Contact</a>
 			  </li>
 		  </ul>
 		  </div>
@@ -1108,9 +1120,12 @@
 		  <!---para-sec start--->
 		 <section class="para-sec mt-5">
 		   <div class="container">
-		   <div class="sec-title">
+		   <div class="sec-title d-none d-lg-block " >
+		         <h1> FREQUENTLY ASKED QUESTIONS </h1>
+		   </div>
+		   <div class="sec-title1 d-lg-none d-xl-none" >
 				<h1> FREQUENTLY ASKED QUESTIONS </h1>
-				  </div>
+			</div>
 			  <div class="row">
 				 <div class="col-lg-12 pt-5 col-12 col-md-12">
 				<div class="para-title">
@@ -1308,12 +1323,12 @@
 						<div class="col-lg-12 pt-5 col-12 col-md-12">
 							<div class="contact-form ">
 								<div class="row">
-									<div class="col-lg-6  col-md-6 col-6">
+									<div class="col-lg-6  col-md-6 col-12">
 										<div class="form">
 										  <input type="text" placeholder="Your name" class="form1 w-100" >
 										</div>
 									</div>
-									<div class="col-lg-6 col-md-6 col-6">
+									<div class="col-lg-6 col-md-6 col-12">
 										<div class="form">
 										   <input type="text" placeholder="Your mail"class="form1 w-100">
 										</div>
@@ -1417,7 +1432,6 @@
 			  </div>
 		   </div>
 		 </section>
-		 
 		<script src="js/bootstrap.bundle.min.js">
 		</script>
 	</body>
