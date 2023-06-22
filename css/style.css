@@ -8,10 +8,7 @@
    .sec-title h1{
 	   font-size:33px;
 	   font-weight:600;
-<<<<<<< HEAD
 	   position:relative;
-		
-=======
 	   position:relative;	
 	   top:10px;
    }
@@ -30,7 +27,6 @@
     top: 80px;
     transform: translateX(-50%);
 	margin-top:5px;
->>>>>>> 98a0235 (siva)
    }
    .sec-title h1::after{
 	 position: absolute;
@@ -653,14 +649,12 @@
 	  margin-bottom: 20px;
     padding: 5px;
     font-size: 13px;
-<<<<<<< HEAD
     border: solid 1px gray;
     border-radius: 4px;
 	padding: 12px 15px
    }
    .form textarea{
 	   padding: 12px 15px
-=======
     border: solid 1px #ccc;
     border-radius: 4px;
 	padding: 12px 15px
@@ -671,7 +665,6 @@
    .form textarea{
 	   padding: 12px 15px;
 	    border: solid 1px #ccc;
->>>>>>> 98a0235 (siva)
    }
      .form-btn a{
 		 font-size:16px;
